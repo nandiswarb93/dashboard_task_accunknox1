@@ -1,0 +1,86 @@
+/* .dashboard{
+    background-color: rgb(255, 255, 251);
+    border: 2px solid black;
+} */
+
+
+/* Dashboard container */
+.dashboard {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+}
+
+/* Navbar styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.navbar h2 {
+    margin: 0;
+}
+
+.navbar input {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+}
+
+/* Category styling */
+.category {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.category h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+/* Widgets container */
+.widgets {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.widgets2
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    text-align: center;
+    align-content: center; 
+    border-radius: 5px;
+
+}
+
+/* Add Widget Button */
+.add-widget-btn {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.add-widget-btn:hover {
+    background-color: #45a049;
+}
+
