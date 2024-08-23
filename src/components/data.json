@@ -28,7 +28,7 @@
         {
           "id": 2,
           "name": "Workload Alerts",
-          "text": "Random text for widget A"
+          "text": "Random text for widget B"
         }
       ]
     },
@@ -44,7 +44,7 @@
         {
           "id": 2,
           "name": "Image Security issues",
-          "text": "Random text for widget A"
+          "text": "Random text for widget B"
         }
       ]
     }

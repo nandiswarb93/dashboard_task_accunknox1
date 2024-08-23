@@ -1,40 +1,41 @@
-/* Unique class names for AddWidgetForm styling */
 .add-widget-form {
-    border: 1px solid #ccc;
-    padding: 20px;
-    margin: 10px 0;
-    border-radius: 5px;
-    background-color: #f9f9f9;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
 }
 
-.add-widget-form input[type="text"] {
-    width: 100%;
-    padding: 8px;
-    margin: 5px 0;
-    border-radius: 4px;
-    border: 1px solid #ddd;
+.add-widget-form input {
+  margin: 5px 0;
+  padding: 8px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
-.add-widget-form .form-actions {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
+.form-actions {
+  display: flex;
+  gap: 10px;
 }
 
-.add-widget-form .form-actions button {
-    padding: 8px 15px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+.form-actions button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-.add-widget-form .form-actions button[type="submit"] {
-    background-color: #4CAF50;
-    color: white;
+.form-actions button[type="submit"] {
+  background-color: #007bff;
+  color: white;
 }
 
-.add-widget-form .form-actions button[type="button"] {
-    background-color: #f44336;
-    color: white;
+.form-actions button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.form-actions button[type="button"] {
+  background-color: #6c757d;
+  color: white;
+}
+
+.form-actions button[type="button"]:hover {
+  background-color: #5a6268;
 }
